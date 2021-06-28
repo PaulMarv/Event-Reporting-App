@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983435094282",
+    "project_id": "fir-pro-8e4e3",
+    "storage_bucket": "fir-pro-8e4e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983435094282:android:099dfd730ac0b2d696b2f3",
+        "android_client_info": {
+          "package_name": "com.paul.marv.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983435094282-cltslai9ebjab192nuh0nm1i9l0bn536.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhVzWHD_5m4oUW9WVePOzd0GZgUGccMp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983435094282-cltslai9ebjab192nuh0nm1i9l0bn536.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

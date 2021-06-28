@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+  </head>
+  <body>
+    <div class="app-page" data-page="home">
+      <div class="app-topbar">
+        <div class="app-title">Home page</div>
+      </div>
+      <div class="app-content">
+        <div class="d-flex justify-content-center pt-2" id="spinner">
+          <div class="spinner-border text-primary"></div>
+        </div>
+        <div class="container pt-2" id="mainDiv">
+        </div>
+        <div class="container">
+
+          <h2>Submit a post</h2>
+          <button class="btn btn-warning"  id = "getPosition">CURRENT POSITION</button>
+          <div class="app">
+              <!-- <p>
+                <button id="btn" type="button">Take Pic</button>
+              </p> -->
+              <p>
+                <img src="" alt="" id="image" name='content'/>
+              </p>
+              <!-- <p id="msg"></p> -->
+            </div>
+
+          <form class="was-validated">
+            <div class="form-group">
+              <label for="title">Title:</label>
+              <input type="text" class="formcontrol" id="title" placeholder="title of post" name="title" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalidfeedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+              <label for="content">Content:</label>
+              <textarea name="content" id="content" cols="30" rows="3" class="form-control" required></textarea>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalidfeedback">Please fill out this field.</div>
+            </div>
+
+            <div><input type="text" name="msg" id="msg" style="display: none"></div>
+            <button id="btn" type="button">Take Pic</button>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="app-page" data-page="page2">
+      <div class="app-topbar">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Page 2</div>
+      </div>
+      <div class="app-content">
+        Page 2 is lonely
+      </div>
+    </div>
+
+
+    <script src="cordova.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.min.js"></script>
+    <script src="js/script.js"></script>
+
+   
+  </body>
+</html>
